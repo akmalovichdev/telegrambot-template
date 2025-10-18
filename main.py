@@ -1,10 +1,8 @@
 import logging
 import logging.config
 import os
-import asyncio
 from aiogram import executor
 from data.logs import LOGGING_CONFIG
-from data import db
 from bot import dp
 from bot import handlers  # noqa: F401  # регистрируем обработчики
 

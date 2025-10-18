@@ -2,7 +2,6 @@ import logging
 from aiogram import types
 from aiogram.dispatcher import FSMContext
 from bot import dp
-from bot.keyboards.inlineKeyboards import CommandsMenu
 
 logger = logging.getLogger(__name__)
 
